@@ -17,8 +17,10 @@ insert into tb_classes (nome, poder,energia)
 values ("Vampire", "Fúria Scarlate", 95);
 insert into tb_classes (nome, poder,energia)
 values ("Spectre", "Shadow Claw", 95);
-
-
+insert into tb_classes (nome, poder,energia)
+values ("Moster", "Shadow Claw", 95);
+insert into tb_classes (nome, poder,energia)
+values ("Necromancer", "Shadow Claw", 95);
 
 select * from tb_classes;
 
@@ -44,9 +46,9 @@ values ("Evelyn", "ela", "Vampire", 1880, 17,4);
 insert into tb_personagens (nome, genero,raça, ataque,defesa,fk_id_classes)
 values ("Gabbys", "ela", "Spectre", 1790, 16,5);
 insert into tb_personagens (nome, genero,raça, ataque,defesa,fk_id_classes)
-values ("David", "ele", "Spectre", 1550, 18,6);
+values ("David", "ele", "Necromancer", 1550, 18,6);
 insert into tb_personagens (nome, genero,raça, ataque,defesa,fk_id_classes)
-values ("Tiago", "ele", "Lycan",1205, 15,7);
+values ("Tiago", "ele", "Moster",1205, 15,7);
 insert into tb_personagens (nome, genero,raça, ataque,defesa,fk_id_classes)
 values ("Cloud", "ela", "Vampire", 2500, 19,8);
 select * from tb_personagens;
